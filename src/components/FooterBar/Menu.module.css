@@ -1,0 +1,33 @@
+
+.index {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 168px;
+}
+
+@media (max-width: 768px) {
+    .index {
+        gap: 20px;
+    }
+}
+
+.title {
+    color: var(--color-green);
+}
+
+.item {
+    color: var(--color-white);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .list {
+        gap: 12px;
+    }
+}

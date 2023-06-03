@@ -1,0 +1,30 @@
+
+.index {
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid var(--color-green);
+    background-color: var(--color-green);
+    color: var(--color-white);
+    transition: 175ms;
+}
+
+.index:hover:not(.disabled) {
+    background-color: var(--color-white);
+    color: var(--color-green);
+}
+
+.small {
+    padding: 8px 44px;
+}
+
+.big {
+    width: 350px;
+    height: 42px;
+}
+
+.disabled {
+    cursor: not-allowed;
+    background: var(--color-pale);
+    border: 1px solid var(--color-pale);
+    color: var(--color-black);
+}

@@ -1,0 +1,12 @@
+.index {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .index {
+        flex: 1;
+    }
+}
