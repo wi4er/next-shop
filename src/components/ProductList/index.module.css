@@ -1,0 +1,32 @@
+.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 90px 0 85px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 255px);
+    gap: 30px;
+    align-items: center;
+
+    max-width: 100%;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title {
+    color: #0B254B;
+    text-align: center;
+}
+
+.subtitle {
+    color: #5E6E89;
+    text-align: center;
+}

@@ -29,6 +29,13 @@
     line-height: 27px;
 }
 
+.medium_18 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
 
 .medium_20 {
     font-family: 'Poppins', sans-serif;
@@ -43,4 +50,11 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
+}
+
+.medium_22 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
 }

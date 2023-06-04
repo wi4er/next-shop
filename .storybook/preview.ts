@@ -13,7 +13,7 @@ const preview: Preview = {
       viewports: {
         iphone_8: { name: 'iphone8', styles: { width: '375px', height: '667px' } },
         ipad_mini: { name: 'iPad mini', styles: { width: '744px', height: '1133px' } },
-        desktop: { name: 'Desktop screen', styles: { width: '1440px', height: '800ox' } },
+        desktop: { name: 'Desktop screen', styles: { width: '1280px', height: '800ox' } },
       },
     },
   },

@@ -1,0 +1,42 @@
+
+.index {
+    flex-shrink: 0;
+    width: 350px;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 33px 15px;
+    gap: 18px;
+    background-color: var(--color-white);
+    border-radius: 6px;
+}
+
+
+.picture {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+}
+
+.image {
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.title {
+    color: #1D293F;
+    text-align: center;
+    letter-spacing: 0.1px;
+}
+
+.author {
+    color: #7C8087;
+}
